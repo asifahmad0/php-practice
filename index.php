@@ -43,12 +43,23 @@ $first_varible = 5;
 $second_varible = 6;
 
 
-echo var_dump( $first_varible == $second_varible), "<br>";
-echo var_dump( $first_varible <= $second_varible), "<br>";
-echo var_dump( $first_varible >= $second_varible), "<br>";
-echo var_dump( $first_varible != $second_varible), "<br>";
+// echo var_dump( $first_varible == $second_varible), "<br>";
+// echo var_dump( $first_varible <= $second_varible), "<br>";
+// echo var_dump( $first_varible >= $second_varible), "<br>";
+// echo var_dump( $first_varible != $second_varible), "<br>";
+
+//incriment/decriment oprator and varible, asine value to a varible
+
+// $first_varible--;
+// echo $first_varible, "<br>";
+// $first_varible++;
+// echo $first_varible, "<br>";
 
 
+// and (&&)
+// or(||)
+// xor
+// not (!)
 
 ?>
 

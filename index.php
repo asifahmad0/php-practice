@@ -39,8 +39,8 @@ echo"<br>", $c;
 
 //camperison oprator and varible, asine value to a varible
 
-$first_varible = 5;
-$second_varible = 6;
+// $first_varible = 5;
+// $second_varible = 6;
 
 
 // echo var_dump( $first_varible == $second_varible), "<br>";
@@ -60,6 +60,40 @@ $second_varible = 6;
 // or(||)
 // xor
 // not (!)
+
+// $myVar1a=(true && false);
+// $myVar1b=(true && true);
+// $myVar1c=(false && false);
+// echo var_dump($myVar1a), "<br>";
+// echo var_dump($myVar1b),"<br>";
+// echo var_dump($myVar1c),"<br>", "<br>";
+
+// $myVar2a=(true or false);
+// $myVar2b=(false or false);
+// $myVar2c=(true or true);
+// echo var_dump($myVar2a), "<br>";
+// echo var_dump($myVar2b),"<br>";
+// echo var_dump($myVar2c),"<br>", "<br>";
+
+
+// $myVar3a=(true xor false);
+// $myVar3b=(true xor true);
+// $myVar3c=(false xor false);
+// echo var_dump($myVar3a), "<br>";
+// echo var_dump($myVar3b), "<br>";
+// echo var_dump($myVar3c), "<br>", "<br>";
+
+
+$first_varible = 22;
+
+if( $first_varible < 18) {
+    echo "you are kide";
+} else if( $first_varible <= 30 ) {
+    echo "you are tinager";
+} else if( $first_varible <=50 ) {
+    echo "you are adult";
+}
+
 
 ?>
 

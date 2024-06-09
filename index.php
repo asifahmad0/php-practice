@@ -84,15 +84,20 @@ echo"<br>", $c;
 // echo var_dump($myVar3c), "<br>", "<br>";
 
 
+// define("pi", 33.56 );//constant cant modify
+// echo pi, "<br>";
+
+
 $first_varible = 22;
 
 if( $first_varible < 18) {
-    echo "you are kide";
+    echo "you are kide", "<br>";
 } else if( $first_varible <= 30 ) {
-    echo "you are tinager";
+    echo "you are tinager", "<br>";
 } else if( $first_varible <=50 ) {
-    echo "you are adult";
+    echo "you are adult", "<br>";
 }
+
 
 
 ?>

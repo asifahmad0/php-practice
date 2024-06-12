@@ -122,12 +122,12 @@ echo"<br>", $c;
 // }
 //------------------DO WHILE LOOP\
 
-$a=0;
+// $a=0;
 
-do{
-    echo $a; // first do 1 time after check condition condition true so work again if false so end 
-    $a++;
-}while($a<=10);
+// do{
+//     echo $a; // first do 1 time after check condition condition true so work again if false so end 
+//     $a++;
+// }while($a<=10);
 
 ?>
 

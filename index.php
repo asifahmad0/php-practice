@@ -120,6 +120,14 @@ echo"<br>", $c;
 // for ($i= 0; $i<$a; $i++) {
 //     echo $i,'<br>';
 // }
+//------------------DO WHILE LOOP\
+
+$a=0;
+
+do{
+    echo $a; // first do 1 time after check condition condition true so work again if false so end 
+    $a++;
+}while($a<=10);
 
 ?>
 

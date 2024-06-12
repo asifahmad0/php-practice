@@ -129,6 +129,16 @@ echo"<br>", $c;
 //     $a++;
 // }while($a<=10);
 
+
+// $a = array(1,2,3,4,'ironman','Asif',);
+// foreach($a as $value){
+//     echo $value, '<br>';
+// }
+
+
+
+
+
 ?>
 
 

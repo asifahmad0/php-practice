@@ -88,17 +88,38 @@ echo"<br>", $c;
 // echo pi, "<br>";
 
 
-$first_varible = 22;
+//-------------------------------------------------if else in php----------------
+// $first_varible = 22;
 
-if( $first_varible < 18) {
-    echo "you are kide", "<br>";
-} else if( $first_varible <= 30 ) {
-    echo "you are tinager", "<br>";
-} else if( $first_varible <=50 ) {
-    echo "you are adult", "<br>";
-}
+// if( $first_varible < 18) {
+//     echo "you are kide", "<br>";
+// } else if( $first_varible <= 30 ) {
+//     echo "you are tinager", "<br>";
+// } else if( $first_varible <=50 ) {
+//     echo "you are adult", "<br>";
+// }
+//-------------------------------------------------array in php----------------
+//  $a = array(1,2,3,4,'ironman','Asif',);
+// // echo $a[5],'<br>';
+// // echo count($a);
 
+//-------------------------------------------------loops in php----------------
+// $a = array(1,2,3,4,'ironman','Asif',);
+//  $b=0;
+// while ($b<count($a)) {
+// echo $a[$b],'<br>';
+// $b++;
+// }
+// $b=5;
+// while ($b>=0) {
+// echo $b,'<br>';
+// $b--;
+// }
 
+// $a=5;
+// for ($i= 0; $i<$a; $i++) {
+//     echo $i,'<br>';
+// }
 
 ?>
 

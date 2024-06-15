@@ -135,6 +135,17 @@ echo"<br>", $c;
 //     echo $value, '<br>';
 // }
 
+// --------------------------------------function --------------------------
+
+// function print5(){
+//     echo "5";
+// }
+// print5();
+
+// function print_num( $num ) {
+//     echo $num;
+// }
+// print_num(102);
 
 
 

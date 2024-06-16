@@ -147,6 +147,22 @@ echo"<br>", $c;
 // }
 // print_num(102);
 
+// // --------------------------------------STRING --------------------------
+
+// $str = 'my name is asif ahmad ';
+// // //echo strlen($str); // for string lenth
+// // $str1 = ' my father name is naushad ahmad';
+// // $wordLen = str_word_count($str); //count words
+// // $strrev = strrev($str);
+// // echo $str . $str1 . $wordLen . $strrev;   // ( . ) for adding two string 
+
+// echo strpos( $str,'asif'); // finding word possition
+// echo str_replace('asif', 'Anam', $str); // for replaceing string
+
+
+
+
+
 
 
 

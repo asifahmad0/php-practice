@@ -103,6 +103,26 @@ echo"<br>", $c;
 // // echo $a[5],'<br>';
 // // echo count($a);
 
+//----------------------------------------------Switch Statment----------------
+
+/*
+$age = 56;
+switch($age){
+    case 12:
+        echo"You are 12 years old<br>";
+        break;
+    case 45:
+        echo"You are 12 years old<br>";
+        break;
+    case 56:
+        echo"You are 12 years old<br>";
+        break;
+    default:
+        echo"You are 12 years old<br>";
+        break;
+
+}
+*/
 //-------------------------------------------------loops in php----------------
 // $a = array(1,2,3,4,'ironman','Asif',);
 //  $b=0;

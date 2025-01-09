@@ -98,10 +98,6 @@ echo"<br>", $c;
 // } else if( $first_varible <=50 ) {
 //     echo "you are adult", "<br>";
 // }
-//-------------------------------------------------array in php----------------
-//  $a = array(1,2,3,4,'ironman','Asif',);
-// // echo $a[5],'<br>';
-// // echo count($a);
 
 //----------------------------------------------Switch Statment----------------
 
@@ -169,20 +165,34 @@ switch($age){
 
 // // --------------------------------------STRING --------------------------
 
-// $str = 'my name is asif ahmad ';
-// // //echo strlen($str); // for string lenth
-// // $str1 = ' my father name is naushad ahmad';
-// // $wordLen = str_word_count($str); //count words
-// // $strrev = strrev($str);
-// // echo $str . $str1 . $wordLen . $strrev;   // ( . ) for adding two string 
+$str = 'my name is asif ahmad ';
+$str1 = ' my father name is naushad ahmad';
+
+//echo strlen($str);                            // for string lenth
+// $wordLen = str_word_count($str);            //count words
+// $strrev = strrev($str);                    // using for revers
+// echo $str . $str1 . $wordLen . $strrev;   // ( . ) for adding two string 
+// echo strpos( $str,'asif');               // finding word possition
+// echo str_replace('asif', 'Anam', $str); // for replaceing string
 
 // echo strpos( $str,'asif'); // finding word possition
 // echo str_replace('asif', 'Anam', $str); // for replaceing string
 
+// if (strcmp($str,$str1)==0){  
+// strcamp or strccasecmp both using for compare 2 strin if both are same so return 0 or not same do return 1
+//  echo "same";
+// }else{
+//     echo "not same";
+//}
 
 
-
-
+//-------------------------------------------------array in php----------------
+// $a = array(1,2,3,4,'ironman','Asif',);
+// $b = array("a"=>1, "b"=>2, "c"=>3, "d"=>4, "e"=>"ironman", "f"=>"Asif",); // set customis index a,b,c
+// print_r($a,); echo "<br>"; // for print array becouse array cant print direct using echo
+// print_r($b);echo "<br>";
+// echo $a[5],'<br>';
+// echo count($a); // this function using for finding array lenght
 
 
 

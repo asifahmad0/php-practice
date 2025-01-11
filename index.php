@@ -194,6 +194,31 @@ $str1 = ' my father name is naushad ahmad';
 // echo $a[5],'<br>';
 // echo count($a); // this function using for finding array lenght
 
+// $array = array('mon', 'tue', 'wen', 'fri', 'sat', 'sun');
+// $array2 = array('mon', 'tue', 'fri',  'sun');
+// $array3 = array('mon', 'tue', 'wen',  'sat', 'sun');
+// $newArray = array_intersect($array,$array2, $array3); // this function return what common in fassing array
+// $newArray1 = array_diff($array,$array2); // this function return what diffrent in fassing array( avilable in 1 not more then one if avilable in 2 array so not diffrent )
+// print_r($newArray);echo "<br>";
+// print_r($newArray1);
+
+// $array = array('BTech', 'MCA', 'BCA', 'MTech', 'BCA', 'BTech',);
+// $newArray = array_unique($array); // this function return only unique value and remove repited
+// print_r($newArray)
+
+
+// function malti($n){
+//     if($n%2 == 0){ // chacking is even or odd  element of array
+//         echo 'Even','<br>';
+//     }else {
+//         echo 'Odd', '<br>';
+//     }
+//     return $n *5; // maltiply 5 in every element of array
+// }
+// $a = array(5,10,20,30,40,50);
+// $newarray= array_map('malti',$a); // maltiply 5 in every element of array  
+// print_r($newarray);
+
 
 
 ?>

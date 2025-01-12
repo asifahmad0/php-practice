@@ -219,6 +219,17 @@ $str1 = ' my father name is naushad ahmad';
 // $newarray= array_map('malti',$a); // maltiply 5 in every element of array  
 // print_r($newarray);
 
+// -------------------------get Data using GET and POST methord------------
+
+// $uname = $_POST['uname']; // post function not visible data in url but in get function your data is visible in url
+// $pass = $_POST['pass'];
+// $check = $_POST['check'];
+
+// if(strcasecmp($pass, '@$If7649')==0){
+//     echo $uname,',<br>', $pass, '<br>', $check;
+// }else{
+//     echo 'you are not valid user';
+// }
 
 
 ?>
